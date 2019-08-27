@@ -28,7 +28,7 @@ for x in range(n):
     for y in range(n):
         if map[x][y] == 1:
             danji.append(dfs(map, 1, x, y)) # dfs 함수의 결과물을 저장
-
+ 
 
 print(len(danji))
 danji = sorted(danji)
