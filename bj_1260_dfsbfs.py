@@ -12,8 +12,14 @@ for _ in range(m):
     matrix[a][b] = 1
     matrix[b][a] = 1
 
-def dfs():
-    pass
+def dfs(start, matrix, foot_prints):
+    foot_prints += [start]
+    for search in range(len(matrix[start])):
+        if (matrix[start][search]) == 1 and (search not in foot_prints):
+            dfs(search, matrix, foot_prints)
+    return foot_prints
 
 def bfs():
     pass
+
+print(dfs(v, matrix, []))
