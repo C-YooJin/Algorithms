@@ -30,5 +30,12 @@ def bfs(start):
                 queue += [search]
     return foot_prints
 
-print(dfs(v, matrix, []))
-print(bfs(v))
+#print(dfs(v, matrix, []))
+#print(bfs(v))
+
+for i in dfs(v, matrix, []):
+    print(i, end='')
+
+print()
+for i in bfs(v):
+    print(i, end='')
