@@ -15,11 +15,20 @@ for _ in range(m):
 def dfs(start, matrix, foot_prints):
     foot_prints += [start]
     for search in range(len(matrix[start])):
-        if (matrix[start][search]) == 1 and (search not in foot_prints):
+        if matrix[start][search] == 1 and (search not in foot_prints):
             dfs(search, matrix, foot_prints)
     return foot_prints
 
-def bfs():
-    pass
+def bfs(start):
+    queue = [start]
+    foot_prints = [start]
+    while queue:
+        current_node = queue.pop(0)
+        for search in range(len(matrix[current_node])):
+            if matrix[current_node][search]==1 and (search not in foot_prints):
+                foot_prints += [search]
+                queue += [search]
+    return foot_prints
 
 print(dfs(v, matrix, []))
+print(bfs(v))
