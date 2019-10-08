@@ -12,3 +12,5 @@ def SelectionSort(lst):
     return lst
 
 print(SelectionSort([77, 6, 4, 3, 2, 21, 999]))
+
+print(SelectionSort([77, 6, 4, 3, 2, 21, 1000]))
