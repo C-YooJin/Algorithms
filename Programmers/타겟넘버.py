@@ -1,9 +1,9 @@
 def solution(numbers, target):
-    sup = [0]
+    super = [0] # super node
     for i in numbers:
         sub = []
-        for j in sup :
+        for j in super:
             sub.append(j+i)
             sub.append(j-i)
         sup = sub
-    return sup.count(target)
+    return super.count(target)
