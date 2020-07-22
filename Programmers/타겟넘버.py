@@ -9,5 +9,5 @@ def solution(numbers, target):
         for j in super:
             sub.append(j+i)
             sub.append(j-i)
-        sup = sub
+        super = sub
     return super.count(target)
