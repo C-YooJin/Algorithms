@@ -1,7 +1,10 @@
 """
 1. len(s)만큼 돌리면서 i값을 뽑아낸다. 음.. 일단 1개씩 자르는 것 부터 len(s)개 자르는 경우까지 다 해봐야 되기 때문이다.
 2. range(len(s)) for문 안에서 일어나는 작업
-    - i만큼 자르면서 list에 넣는다.
+    - i만큼 자르면서 temp list에 넣는다.
+        - i가 1이면 lst[0:1] lst[1:2]
+        - i가 2면 lst[0:2] lst[2:4] lst[4:6]
+        - i가 3이면 lst[0:3] lst[3:6] lst[6:9]
     - list안에서 for문 돌면서 if lst[j] == lst[j+1]이면 zip_count를 하나 늘려준다. zip_count는 압축된 문자열 갯수 그거..
     - 만약 lst[j] != lst[j+1]이면 new_s에 zip_count랑 lst[j]값을 붙여서 append(string도 append인?) 해준다
         - 여기서 만약 zip_count가 1이면 1 없이 문자열만 붙여준다. (조건문 추가)
@@ -11,6 +14,10 @@
 """
 
 def solution(s):
+    temp_lst = []
+    for i in range(len(s)):
+
+
     answer = []
     return answer
 
