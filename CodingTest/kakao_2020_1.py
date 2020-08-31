@@ -14,8 +14,34 @@
 """
 
 def solution(s):
-    temp_lst = []
-    for i in range(len(s)):
+    minA = len(s)
+    length = int(len(s)/2)
+    for i in range(1, length+1):
+        temp_lst = []
+        tempStr = ""
+        for j in range(0, len(s), i):
+            temp_lst.append(s[j:j+i])
+        zip_count = 1
+        cur_words = temp_lst[0]
+        for words in temp_lst[1:]:
+            if (cur_words == words):
+                zip_count += 1
+            else:
+                if (zip_count != 1):
+                    tempStr += str(zip_count) + cur_words
+                else:
+                    tempStr += cur_words
+                cur_words = words
+                zip_count = 1
+        if (zip_count != 1):
+            tempStr += str(zip_count) + cur_words
+        else:
+            tempStr += cur_words
+        if minA > len(tempStr):
+            minA = len(tempStr)
+    return minA
+
+
 
 
     answer = []
