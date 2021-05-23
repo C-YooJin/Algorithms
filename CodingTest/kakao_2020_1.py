@@ -42,9 +42,4 @@ def solution(s):
     return minA
 
 
-
-
-    answer = []
-    return answer
-
 print(solution('ababcc'))
