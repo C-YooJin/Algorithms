@@ -20,3 +20,12 @@ Algorithms source code (python, java)
 
 ### 2021.06.16 (Wed)
 - [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+
+### 2021.06.17 (Thu)
+
+### 2021.06.18 (Fri)
+
+### 2021.06.19 (Sat)
+
+### 2021.06.20 (Sun) THE DAY OF REVIEW
+- 일주일동안 푼 문제 다시 풀고, 못 풀었다면 원인 체킹
