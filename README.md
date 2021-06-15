@@ -12,6 +12,8 @@ Algorithms source code (python, java)
 - ex) [leetcode/easy] Number of Steps to Reduce a Number to Zero (solve)
 <br>
 
+# Solve Everyday
+
 ### 2021.06.15 (Tue)
 - [100. Same Tree](https://leetcode.com/problems/same-tree/)
   - 이건 우선탐색문제라고 생각하고 집었는데, 그것보다 자바의 TreeNode 타입에 대해서 생각해보게 해 준 문제다 
