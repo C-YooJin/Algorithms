@@ -1,4 +1,4 @@
-// [leetcode/easy ]number_of_steps_to_reduce_a_number_to_zero
+// [leetcode/easy] number_of_steps_to_reduce_a_number_to_zero
 
 class Solution {
     public int numberOfSteps(int num) {
