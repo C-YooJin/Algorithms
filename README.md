@@ -24,10 +24,10 @@ Algorithms source code (python, java)
 - [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
   1. 주어진 root값(TreeNode)를 그래프로 만든다
   2. BFS로 탐색
-    - `target`에서 모든 노드로 탐색해서 `distance`가 `K`면 멈춘다
+     - `target`에서 모든 노드로 탐색해서 `distance`가 `K`면 멈춘다
   3. Corner case를 고민한다
-    - `target`으로부터 `distance`가 `K`인 노드가 없는 경우
-    - 애초에 root가 None인 경우
+     - `target`으로부터 `distance`가 `K`인 노드가 없는 경우
+     - 애초에 `root`가 `None`인 경우
   4. 가능하다면 시간복잡도 최적화
 
 ### 2021.06.17 (Thu)
