@@ -31,7 +31,7 @@ Algorithms source code (python, java)
   4. 가능하다면 시간복잡도 최적화
 
 ### 2021.06.17 (Thu)
-- [01 Matrix](https://leetcode.com/problems/01-matrix/)
+- [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
 
 ### 2021.06.18 (Fri)
 
