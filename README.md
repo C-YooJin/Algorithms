@@ -34,8 +34,9 @@ Algorithms source code (python, java)
 - [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
 
 ### 2021.06.18 (Fri)
+- [Review] leetcode 100, 863, 542
 
 ### 2021.06.19 (Sat)
 
-### 2021.06.20 (Sun) THE DAY OF REVIEW
+### 2021.06.20 (Sun) 
 - 일주일동안 푼 문제 다시 풀고, 못 풀었다면 원인 체킹
