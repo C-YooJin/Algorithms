@@ -37,6 +37,9 @@ Algorithms source code (python, java)
 - [Review] leetcode 100, 863, 542
 
 ### 2021.06.19 (Sat)
+- [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
+  1. jewels에 할당 된 문자가 stone에 몇 개 있는지 count해서 return
+  2. 2중 loop로 하면 간단하지만 다른 케이스도 찾아
 
 ### 2021.06.20 (Sun) 
 - 일주일동안 푼 문제 다시 풀고, 못 풀었다면 원인 체킹
