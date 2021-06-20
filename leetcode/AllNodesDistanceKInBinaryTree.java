@@ -1,3 +1,6 @@
+package main;
+
+import javax.swing.tree.TreeNode;
 import java.util.*;
 import java.lang.*;
 
@@ -10,6 +13,14 @@ import java.lang.*;
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+public class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
+
 class Pair {
     public TreeNode first;
     public Integer second;

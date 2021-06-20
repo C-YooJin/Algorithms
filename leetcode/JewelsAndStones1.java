@@ -8,7 +8,6 @@ class Solution {
             if( set.contains(ch) )
                 count++;
         }
-
         return count;
     }
 }
