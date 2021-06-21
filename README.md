@@ -46,3 +46,6 @@ Algorithms source code (python, java)
 
 ### 2021.06.20 (Sun) 
 - 일주일동안 푼 문제 다시 풀고, 못 풀었다면 원인 체킹
+
+### 2021.06.21 (Mon)
+- [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
