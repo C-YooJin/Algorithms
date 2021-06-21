@@ -49,3 +49,6 @@ Algorithms source code (python, java)
 
 ### 2021.06.21 (Mon)
 - [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+  1. 두 노드가 Null인 경우 check
+  2. 한 노드만 Null인 경우 check
+  3. 두 노드의 값이 같은 경우 check -> 재귀
