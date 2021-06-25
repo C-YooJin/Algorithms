@@ -57,10 +57,14 @@ Algorithms source code (python, java)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
 ### 2021.06.23 (Wed)
+- 회사 업무
 
 ### 2021.06.24 (Thu)
+- 회사 업무
 
 ### 2021.06.25 (Fri)
+- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- 앞에 푼 문제들 복습
 
 ### 2021.06.26 (Sat)
 
