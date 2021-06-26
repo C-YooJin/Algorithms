@@ -64,8 +64,9 @@ Algorithms source code (python, java)
 
 ### 2021.06.25 (Fri)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- 앞에 푼 문제들 복습
 
 ### 2021.06.26 (Sat)
+- 앞에 푼 문제들 복습
+  - 100, 863, 542, 771, 101, 70 
 
 ### 2021.06.27 (Sun)
