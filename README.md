@@ -71,3 +71,6 @@ Algorithms source code (python, java)
 
 ### 2021.06.27 (Sun) - 2021.07.02 (Fri)
 - 프로젝트 발표 기간이라 알고리즘 잠깐 홀딩. 앞에 푼 문제들 보면서 체화.
+
+### 2021.07.06 (Tue)
+- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
