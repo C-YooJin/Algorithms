@@ -74,7 +74,8 @@ Algorithms source code (python, java)
 
 ### 2021.07.06 (Tue)
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-
+  - 재귀로는 쉽게 풀리는데 Iterative 접근방식은 알아야 할 빌트인 자료구조가 많은편. 학습중.
+  
 ### 2021.07.07 (Wed)
 - [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
-  - 재귀로는 쉽게 풀리는데 Iterative 접근방식은 알아야 할 빌트인 자료구조가 많은편. 학습중.
+  - bfs로 모든 노드를 돌고 target value 나오면 true, 끝까지 없으면 false. 아주 기본이  bfs 탐색 해볼 수 있는 문제.
