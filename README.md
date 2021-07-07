@@ -79,3 +79,7 @@ Algorithms source code (python, java)
 ### 2021.07.07 (Wed)
 - [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
   - bfs로 모든 노드를 돌고 target value 나오면 true, 끝까지 없으면 false. 아주 기본이  bfs 탐색 해볼 수 있는 문제.
+  - left -> right / top -> bottom으로 sorting 된 매트릭스라서 편하게 오른쪽 위나 왼쪽 아래부터 시작한다.
+    - 왼쪽 아래에서 시작(start)하는 경우 target이 start보다 작으면 위로, target이 start보다 크면 오른쪽 옆으로 간다.
+  - corner case : 매트릭스 길이가 0인 경우 -> return false
+  - target이랑 현재 값이랑 비교해서 row랑 col값을 늘이고 줄이면서 target 
