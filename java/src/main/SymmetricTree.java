@@ -1,8 +1,9 @@
-package main.resources;
+package main;
 
 import javax.swing.tree.TreeNode;
 
 class Solution {
+
     public boolean isSymmetric(TreeNode root) {
         return check(root.left, root.right);
     }
