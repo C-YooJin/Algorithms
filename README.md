@@ -83,3 +83,6 @@ Algorithms source code (python, java)
     - 왼쪽 아래에서 시작(start)하는 경우 target이 start보다 작으면 위로, target이 start보다 크면 오른쪽 옆으로 간다.
   - corner case : 매트릭스 길이가 0인 경우 -> return false
   - target이랑 현재 값이랑 비교해서 row랑 col값을 늘이고 줄이면서 target 
+
+### 2021.07.08 (Thu)
+- [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
