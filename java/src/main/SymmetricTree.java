@@ -2,7 +2,7 @@ package main;
 
 import javax.swing.tree.TreeNode;
 
-class Solution {
+class SymmetricTree {
 
     public boolean isSymmetric(TreeNode root) {
         return check(root.left, root.right);
