@@ -87,6 +87,9 @@ Algorithms source code (python, java)
 ### 2021.07.08 (Thu)
 - [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
 
+### 2021.07.10 (Sat)
+- [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
+
 
 # Ref
 - [자바 코딩테스트시 자주 사용하는 코드들](https://redbinalgorithm.tistory.com/579)
