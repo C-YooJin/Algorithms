@@ -108,6 +108,9 @@ class Node<E> {
 ```
   - [Arrays.asList()와 List.of()의 차이](https://kim-jong-hyun.tistory.com/31)
 
+### 2021.07.13 (Tue)
+- [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
 # Ref
 - [자바 코딩테스트시 자주 사용하는 코드들](https://redbinalgorithm.tistory.com/579)
 - [자바 컬렉션 프레임워크](https://st-lab.tistory.com/142)
