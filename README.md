@@ -90,6 +90,22 @@ Algorithms source code (python, java)
 ### 2021.07.12 (Mon)
 - [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
   - [Singly LinkedList(단일 연결리스트) 구현하기](https://st-lab.tistory.com/167)
+    - LinkedList와 ArrayList의 가장 큰 차이점은 '노드'라는 객체를 연결한다는 점
+    - 배열을 이용하는 것이 아닌 하나의 객체를 두고 그 안에 데이터, 다른 노드를 가리키는 레퍼런스 데이터로 구성하여 여러 노드를 하나의 체인처럼 연결하는 것
+    - Singly LinkedList는 "단방향"으로 연결 된 리스트
+  - ⭐ LinkedList를 구현하기에 앞서, 먼저 노드 클래스 구현 ⭐
+```
+class Node<E> {
+ 
+	E data;
+	Node<E> next;	// 다음 노드객체를 가리키는 래퍼런스 변수
+ 
+	Node(E data) {
+		this.data = data;
+		this.next = null;
+	}
+}
+```
 
 # Ref
 - [자바 코딩테스트시 자주 사용하는 코드들](https://redbinalgorithm.tistory.com/579)
