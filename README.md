@@ -106,6 +106,7 @@ class Node<E> {
 	}
 }
 ```
+  - [Arrays.asList()와 List.of()의 차이](https://kim-jong-hyun.tistory.com/31)
 
 # Ref
 - [자바 코딩테스트시 자주 사용하는 코드들](https://redbinalgorithm.tistory.com/579)
