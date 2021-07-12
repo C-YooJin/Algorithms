@@ -89,7 +89,7 @@ Algorithms source code (python, java)
 
 ### 2021.07.12 (Mon)
 - [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
-
+  - [Singly LinkedList(단일 연결리스트) 구현하기](https://st-lab.tistory.com/167)
 
 # Ref
 - [자바 코딩테스트시 자주 사용하는 코드들](https://redbinalgorithm.tistory.com/579)
