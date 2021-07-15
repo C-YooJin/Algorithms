@@ -111,6 +111,18 @@ class Node<E> {
 ### 2021.07.13 (Tue)
 - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
+### 2021.07.14 (Wed)
+[일반 자바 환경에서 Tree Class 구성하기](https://heestory217.tistory.com/entry/Binary-Tree-Java)
+
+### 2021.07.15 (Thu)
+
+
+### 2021.07.16 (Fri)
+
+### 2021.07.17 (Sat)
+
+### 2021.07.18 (Sun)
+
 # Ref
 - [자바 코딩테스트시 자주 사용하는 코드들](https://redbinalgorithm.tistory.com/579)
 - [자바 컬렉션 프레임워크](https://st-lab.tistory.com/142)
