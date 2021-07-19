@@ -116,12 +116,54 @@ class Node<E> {
 
 ### 2021.07.15 (Thu)
 
-
 ### 2021.07.16 (Fri)
 
 ### 2021.07.17 (Sat)
 
 ### 2021.07.18 (Sun)
+- Queue 인터페이스를 상속하는 LinkedList / remove()
+- INPUT
+```
+// Java Program Demonstrate remove()
+// method of Queue
+  
+import java.util.*;
+  
+public class GFG {
+    public static void main(String[] args)
+        throws IllegalStateException
+    {
+  
+        // create object of Queue
+        Queue<Integer> Q
+            = new LinkedList<Integer>();
+  
+        // Add numbers to end of Queue
+        Q.add(7855642);
+        Q.add(35658786);
+        Q.add(5278367);
+        Q.add(74381793);
+  
+        // print queue
+        System.out.println("Queue: " + Q);
+  
+        // print head and deletes the head
+        System.out.println("Queue's head: " + Q.remove());
+  
+        // print head and deleted the head
+        System.out.println("Queue's head: " + Q.remove());
+    }
+}
+```
+- OUTPUT
+```
+Queue: [7855642, 35658786, 5278367, 74381793]
+Queue's head: 7855642
+Queue's head: 35658786
+```
+
+- remove(): 큐에서 선입선출대상인 값을 삭제하면서 해당 값을 return
+
 
 # Ref
 - [자바 코딩테스트시 자주 사용하는 코드들](https://redbinalgorithm.tistory.com/579)
