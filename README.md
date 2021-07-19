@@ -208,6 +208,22 @@ public E remove() {
 ```
 - [Ref. 연결리스트를 이용한 Queue(큐) . . .](https://st-lab.tistory.com/184)
 
+### 2021.07.19 (Mon)
+- [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) -> Queue의 LinkedList 활용해서 풀기
+- 한 문제 더 풀거임.. 두문제
+
+
+### 2021.07.20 (Tue)
+
+### 2021.07.21 (Wed)
+
+### 2021.07.22 (Thu)
+
+### 2021.07.23 (Fri)
+
+### 2021.07.24 (Sat)
+
+### 2021.07.25 (Sun)
 
 
 # Ref
