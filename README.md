@@ -163,6 +163,51 @@ Queue's head: 35658786
 ```
 
 - remove(): 큐에서 선입선출대상인 값을 삭제하면서 해당 값을 return
+- remove()와 poll()의 차이?
+  - remove(): 삭제 할 요소가 없으면 NoSuchElementException() 예외를 던진다
+  - poll(): 삭제 할 요소가 없으면 null 반환 / size가 0일 때 null 반환 (같은말이지만.. 알고리즘 풀 때 활용할 수 있을듯)
+- poll() 메소드 구현
+```
+@Override
+public E poll() {
+		
+	// 삭제할 요소가 없을 경우 null 반환
+	if(size == 0) {
+		return null;
+	}
+		
+	// 삭제될 요소의 데이터를 반환하기 위한 임시 변수 
+	E element = head.data;
+		
+	// head 노드의 다음노드
+	Node<E> nextNode = head.next;
+		
+	// head의 모든 데이터들을 삭제 
+	head.data = null;
+	head.next = null;
+		
+	// head 가 가리키는 노드를 삭제된 head노드의 다음노드를 가리키도록 변경 
+	head = nextNode;
+	size--;
+		
+	return element;
+}
+```
+- remove() 메소드 구현
+```
+public E remove() {
+		
+	E element = poll();
+		
+	if(element == null) {
+		throw new NoSuchElementException();
+	}
+		
+	return element;
+}
+```
+- [Ref. 연결리스트를 이용한 Queue(큐) . . .](https://st-lab.tistory.com/184)
+
 
 
 # Ref
