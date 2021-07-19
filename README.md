@@ -210,10 +210,9 @@ public E remove() {
 
 ### 2021.07.19 (Mon)
 - [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) -> Queue의 LinkedList 활용해서 풀기
-- 한 문제 더 풀거임.. 두문제
-
 
 ### 2021.07.20 (Tue)
+- [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 
 ### 2021.07.21 (Wed)
 
