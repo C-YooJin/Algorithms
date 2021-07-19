@@ -116,12 +116,115 @@ class Node<E> {
 
 ### 2021.07.15 (Thu)
 
-
 ### 2021.07.16 (Fri)
 
 ### 2021.07.17 (Sat)
 
 ### 2021.07.18 (Sun)
+- Queue 인터페이스를 상속하는 LinkedList / remove()
+- INPUT
+```
+// Java Program Demonstrate remove()
+// method of Queue
+  
+import java.util.*;
+  
+public class GFG {
+    public static void main(String[] args)
+        throws IllegalStateException
+    {
+  
+        // create object of Queue
+        Queue<Integer> Q
+            = new LinkedList<Integer>();
+  
+        // Add numbers to end of Queue
+        Q.add(7855642);
+        Q.add(35658786);
+        Q.add(5278367);
+        Q.add(74381793);
+  
+        // print queue
+        System.out.println("Queue: " + Q);
+  
+        // print head and deletes the head
+        System.out.println("Queue's head: " + Q.remove());
+  
+        // print head and deleted the head
+        System.out.println("Queue's head: " + Q.remove());
+    }
+}
+```
+- OUTPUT
+```
+Queue: [7855642, 35658786, 5278367, 74381793]
+Queue's head: 7855642
+Queue's head: 35658786
+```
+
+- remove(): 큐에서 선입선출대상인 값을 삭제하면서 해당 값을 return
+- remove()와 poll()의 차이?
+  - remove(): 삭제 할 요소가 없으면 NoSuchElementException() 예외를 던진다
+  - poll(): 삭제 할 요소가 없으면 null 반환 / size가 0일 때 null 반환 (같은말이지만.. 알고리즘 풀 때 활용할 수 있을듯)
+- poll() 메소드 구현
+```
+@Override
+public E poll() {
+		
+	// 삭제할 요소가 없을 경우 null 반환
+	if(size == 0) {
+		return null;
+	}
+		
+	// 삭제될 요소의 데이터를 반환하기 위한 임시 변수 
+	E element = head.data;
+		
+	// head 노드의 다음노드
+	Node<E> nextNode = head.next;
+		
+	// head의 모든 데이터들을 삭제 
+	head.data = null;
+	head.next = null;
+		
+	// head 가 가리키는 노드를 삭제된 head노드의 다음노드를 가리키도록 변경 
+	head = nextNode;
+	size--;
+		
+	return element;
+}
+```
+- remove() 메소드 구현
+```
+public E remove() {
+		
+	E element = poll();
+		
+	if(element == null) {
+		throw new NoSuchElementException();
+	}
+		
+	return element;
+}
+```
+- [Ref. 연결리스트를 이용한 Queue(큐) . . .](https://st-lab.tistory.com/184)
+
+### 2021.07.19 (Mon)
+- [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) -> Queue의 LinkedList 활용해서 풀기
+- 한 문제 더 풀거임.. 두문제
+
+
+### 2021.07.20 (Tue)
+
+### 2021.07.21 (Wed)
+
+### 2021.07.22 (Thu)
+
+### 2021.07.23 (Fri)
+
+### 2021.07.24 (Sat)
+
+### 2021.07.25 (Sun)
+
 
 # Ref
 - [자바 코딩테스트시 자주 사용하는 코드들](https://redbinalgorithm.tistory.com/579)
