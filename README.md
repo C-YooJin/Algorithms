@@ -216,6 +216,8 @@ public E remove() {
 
 ### 2021.07.21 (Wed)
 - [1108. Defanging an IP Address (Apple 코딩 인터뷰 출제)](https://leetcode.com/problems/defanging-an-ip-address/)
+  - 자바랑 파이썬 둘 다 씀. replace로 바로 return해도 되고 새로운 문자열에 `.`이면 `[.]` 붙여넣는 방식으로 하면 됨
+  - 자바에서 문자열은 웬만하면 StringBuilder를 쓰자 
 
 ### 2021.07.22 (Thu)
 
