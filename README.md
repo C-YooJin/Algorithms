@@ -212,7 +212,7 @@ public E remove() {
 - [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) -> Queue의 LinkedList 활용해서 풀기
 
 ### 2021.07.20 (Tue)
-- [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+- [64. Minimum Path Sum (Amazon 코딩 인터뷰 출제)](https://leetcode.com/problems/minimum-path-sum/)
 
 ### 2021.07.21 (Wed)
 - [1108. Defanging an IP Address (Apple 코딩 인터뷰 출제)](https://leetcode.com/problems/defanging-an-ip-address/)
