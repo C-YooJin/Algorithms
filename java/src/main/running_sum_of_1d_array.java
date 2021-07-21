@@ -1,4 +1,4 @@
-class Solution {
+class running_sum_of_1d_array {
     public int[] runningSum(int[] nums) {
         int[] arr = new int[nums.length];
 

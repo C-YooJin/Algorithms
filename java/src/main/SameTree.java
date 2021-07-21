@@ -1,4 +1,6 @@
-class Solution {
+package main;
+
+class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         return solve(p, q);
     }

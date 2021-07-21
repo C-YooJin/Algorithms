@@ -1,4 +1,9 @@
-class Solution {
+package main;
+
+import java.util.HashSet;
+import java.util.Set;
+
+class JewelsAndStones1 {
     public int numJewelsInStones(String J, String S) {
         int count =0;
         Set<Character> set = new HashSet();

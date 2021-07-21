@@ -1,4 +1,6 @@
-class Solution {
+package main;
+
+class JewelsAndStones2 {
     public int numJewelsInStones(String jewels, String stones) {
 
         int count = 0;

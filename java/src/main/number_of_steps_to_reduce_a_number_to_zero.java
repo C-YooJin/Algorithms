@@ -1,7 +1,7 @@
 package main;
 // [leetcode/easy] number_of_steps_to_reduce_a_number_to_zero
 
-class Solution {
+class number_of_steps_to_reduce_a_number_to_zero {
     public int numberOfSteps(int num) {
 
         int sum = 0;

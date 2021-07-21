@@ -1,6 +1,5 @@
 package main;
 
-import javax.swing.tree.TreeNode;
 import java.util.*;
 import java.lang.*;
 
@@ -14,12 +13,6 @@ import java.lang.*;
  * }
  */
 
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
 
 class Pair {
     public TreeNode first;
@@ -29,7 +22,7 @@ class Pair {
         this.second = second;
     }
 }
-class Solution {
+class AllNodesDistanceKInBinaryTree {
     public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
         Map<TreeNode, TreeNode> parents = new HashMap<>();
         dfs(parents, root, null);
