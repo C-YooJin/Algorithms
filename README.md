@@ -213,6 +213,16 @@ public E remove() {
 
 ### 2021.07.20 (Tue)
 - [64. Minimum Path Sum (Amazon 코딩 인터뷰 출제)](https://leetcode.com/problems/minimum-path-sum/)
+  - dynamic programming, optimization (DP) : 처음 진행되는 연산은 기록해 두고, 이미 진행했던 연산이라면 다시 연산하는 것이 아니라 기록되어 있는 값을 가져오는 것
+  - `length`
+    - 배열의 길이
+    - `arrays(int[], double[], String[])`
+  - `length()`
+    - 문자열의 길이
+    - `String related Object(String, StringBuilder etc)`
+  - `size()`
+    - 컬렉션 프레임워크 타입의 길이 
+    - `Collection Object(ArrayList, Set etc)`
 
 ### 2021.07.21 (Wed)
 - [1108. Defanging an IP Address (Apple 코딩 인터뷰 출제)](https://leetcode.com/problems/defanging-an-ip-address/)
