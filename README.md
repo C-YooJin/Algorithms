@@ -232,6 +232,7 @@ public E remove() {
 ### 2021.07.22 (Thu)
 - [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
 - 1108 again
+- DP - matrix 문제 몇 문제 더 선정 
 
 ### 2021.07.23 (Fri)
 
