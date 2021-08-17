@@ -238,6 +238,15 @@ public E remove() {
 
 8월 첫째 주 다시 재개 예정 (파이썬)
 
+### 2021.08.17 (Tue) / 파이썬
+- [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
+- [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
+### 2021.08.18 (Wed) 
+
+### 2021.08.19 (Thu)
+
+
 
 # Ref
 - [자바 코딩테스트시 자주 사용하는 코드들](https://redbinalgorithm.tistory.com/579)
