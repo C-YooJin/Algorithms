@@ -14,6 +14,9 @@ Algorithms source code (python, java)
 
 # Solve Everyday
 
+<details markdown="1">
+<summary>Recorded Algorithms of Past(접기/펼치기)</summary>
+
 ### 2021.06.15 (Tue)
 - [100. Same Tree](https://leetcode.com/problems/same-tree/)
   - 이건 우선탐색문제라고 생각하고 집었는데, 그것보다 자바의 TreeNode 타입에 대해서 생각해보게 해 준 문제다 
@@ -237,6 +240,7 @@ public E remove() {
 ### 회사 연구과제 마무리로 알고리즘 잠깐 홀딩
 
 8월 첫째 주 다시 재개 예정 (파이썬)
+</details>
 
 ### 2021.08.17 (Tue) / 파이썬
 - [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
